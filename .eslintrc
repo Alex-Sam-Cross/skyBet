@@ -10,11 +10,12 @@
         "node": true,
         "mocha": true,
         "browser": true,
-        "es6": true
+        "es6": true, 
+        "jest/globals": true
     },
     "extends": ["eslint:recommended", "plugin:react/recommended"],
     "plugins": [
-        "jsx", "react"
+        "jsx", "react", "jest"
     ],
     "rules": {
         "jsx/uses-factory": [1, {"pragma": "JSX"}],
