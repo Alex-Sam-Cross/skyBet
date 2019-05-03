@@ -33,10 +33,14 @@ const Header = (props) => {
                     >
                     <h1>f/d</h1>
                 </div>  
-                <div className="skyBet" id="skyBet">
+                <div 
+                    className="skyBet" 
+                    id="skyBet">
                     <h1>SkyBet</h1>
                 </div>
-                <div className="credit" id="credit">
+                <div 
+                    className="credit" 
+                    id="credit">
                     <h1>£{wallet}</h1>
                 </div> 
         </div> 

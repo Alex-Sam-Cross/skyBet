@@ -24,21 +24,13 @@ const LiveEvents = (props) => {
                     onClick={ () => { props.handleShowPrimaryMarkets(primarOutcomes[i], i);} }>
                         V 
                     </span>
-
-                    {/* this div is 'display: none;' until user clicks 'Show Primary Markets' */}
+                    {/* this div is 'display: none;' until user clicks V */}
                     <div 
                         className="primaryMarket"
                         id={i}>
                         <div id="marketName">
                             {primaryMarket[i]}
                         </div>
-                        {/* <div id="primaryMarketOutcomes">
-                            { 
-                                <ul>
-                                    { getPrices(marketOutcomes, showDecimalOdds) } 
-                                </ul>
-                            }
-                        </div> */}
                     </div>
             </div>
             

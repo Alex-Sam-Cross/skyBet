@@ -22,6 +22,7 @@ class App extends Component {
         };
         this.handleMarketClick = this.handleMarketClick.bind(this);
         this.handleShowPrimaryMarkets = this.handleShowPrimaryMarkets.bind(this);
+        this.toggleOddsDisplay = this.toggleOddsDisplay.bind(this);
     }
 
     // methods
@@ -143,7 +144,7 @@ class App extends Component {
             .catch(err => {
                 return console.log(`Error in axios event request:: ${err}`);
             });
-            // thnking then to make calls to the outcomes for each market.
+            // ToDO make calls to the outcomes for each market.
     }
     handleShowPrimaryMarkets (primarOutcomes, key) {
         if (this.state.oldI.includes(key)) return;
