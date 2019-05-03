@@ -1,0 +1,35 @@
+.liveGame {
+    padding-top: 1em;
+    border: 1px solid white;
+    background-color: #00008B;
+    color: white;
+}
+.minsPlayed{
+    position: absolute;
+    left: 2em;
+}
+.eventName{
+    cursor: pointer;
+}
+.primaryMarket{
+    display: none;
+    padding-top: 2px;
+    background-color: cornflowerblue;
+}
+.marketName{
+    cursor: pointer;
+}
+.outcomeName{
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    padding-left: 1em;
+    padding-right: 1em;
+    margin-right: 1em;
+    padding-top: 2px;
+}
+.showPrimaryMarket{
+    position: absolute;
+    right: 2em;
+    cursor: pointer;
+}
