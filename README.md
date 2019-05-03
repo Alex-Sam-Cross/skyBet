@@ -8,6 +8,15 @@ I used Jest for testing.
 
 ### What I would add/improve with more time
 
+I spent three evenings (approx 8/9 hours) on this test and tried to prioritise certain tasks over others. 
+I could focus on my code therefore I would've liked to have done the following if I had more time:
+
+Implement full SASS styling
+Utilise WebSocket responses to update the UI - Sockets where open and subscriptions to all events on homepage had been made but nothing done with them
+Fix a small props Validation error to enable toggleOdds Button to fire toggleOddsDisplay functionn in app.js
+Include loading spinners for during ajax requests - for the loading of the details page
+Add more than one unit test.
+
 ### How to run the app
 
 Please make sure to have Node v6 or higher and Docker installed and running:
