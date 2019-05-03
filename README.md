@@ -11,11 +11,13 @@ I used Jest for testing.
 I spent three evenings (approx 8/9 hours) on this test and tried to prioritise certain tasks over others. 
 I could focus on my code therefore I would've liked to have done the following if I had more time:
 
-Implement full SASS styling
-Utilise WebSocket responses to update the UI - Sockets where open and subscriptions to all events on homepage had been made but nothing done with them
-Fix a small props Validation error to enable toggleOdds Button to fire toggleOddsDisplay functionn in app.js
-Include loading spinners for during ajax requests - for the loading of the details page
-Add more than one unit test.
+- Implement full SASS styling
+- Utilise WebSocket responses to update the UI - Sockets where open and subscriptions to all events on homepage had been made but nothing is being done with them currently 
+- Fix a small props Validation error to enable toggleOdds Button to fire toggleOddsDisplay functionn in app.js
+- Fix a small bug with the ingame time, currently showing NaN 
+- Include loading spinners for during ajax requests - for the loading of the details page
+- Add more than one unit test.
+
 
 ### How to run the app
 
